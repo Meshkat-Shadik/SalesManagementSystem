@@ -1,0 +1,25 @@
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\bin\Debug\Sales Management System.exe.config
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\bin\Debug\Sales Management System.exe
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\bin\Debug\Sales Management System.pdb
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.csprojAssemblyReference.cache
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.ADMIN.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Announcement_cs.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Form1.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Manager_Management.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Manager.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Project.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Properties.Resources.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Proposal_Management.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Sales_Management.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.SALES.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.csproj.GenerateResource.cache
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.csproj.CoreCompileInputs.cache
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.exe
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.pdb
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\bin\Debug\MySql.Data.dll
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales Management System.csproj.CopyComplete
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Delete_and_Update_Form.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.DeleteUpdateProposal.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.Opportutiny_Management.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.DeleteUpdateOpportunity.resources
+C:\Users\Meshkat Shadik\source\repos\Sales Management System\Sales Management System\obj\Debug\Sales_Management_System.DeleteUpdateProject.resources

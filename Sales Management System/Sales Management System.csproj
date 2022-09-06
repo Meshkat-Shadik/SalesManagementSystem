@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6809CE8A-5207-4AE0-9F81-E715EB951EE0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sales_Management_System</RootNamespace>
+    <AssemblyName>Sales Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN.Designer.cs">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Announcement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Announcement.Designer.cs">
+      <DependentUpon>Announcement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="DeleteUpdateOpportunity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteUpdateOpportunity.Designer.cs">
+      <DependentUpon>DeleteUpdateOpportunity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUpdateProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteUpdateProject.Designer.cs">
+      <DependentUpon>DeleteUpdateProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUpdateProposal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteUpdateProposal.Designer.cs">
+      <DependentUpon>DeleteUpdateProposal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_and_Update_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_and_Update_Form.Designer.cs">
+      <DependentUpon>Delete_and_Update_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Management.Designer.cs">
+      <DependentUpon>Manager Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opportutiny Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opportutiny Management.Designer.cs">
+      <DependentUpon>Opportutiny Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proposal Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proposal Management.Designer.cs">
+      <DependentUpon>Proposal Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Management.Designer.cs">
+      <DependentUpon>Sales Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SALES.Designer.cs">
+      <DependentUpon>SALES.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ADMIN.resx">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Announcement.resx">
+      <DependentUpon>Announcement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUpdateOpportunity.resx">
+      <DependentUpon>DeleteUpdateOpportunity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUpdateProject.resx">
+      <DependentUpon>DeleteUpdateProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUpdateProposal.resx">
+      <DependentUpon>DeleteUpdateProposal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_and_Update_Form.resx">
+      <DependentUpon>Delete_and_Update_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Management.resx">
+      <DependentUpon>Manager Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opportutiny Management.resx">
+      <DependentUpon>Opportutiny Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Proposal Management.resx">
+      <DependentUpon>Proposal Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Management.resx">
+      <DependentUpon>Sales Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SALES.resx">
+      <DependentUpon>SALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
